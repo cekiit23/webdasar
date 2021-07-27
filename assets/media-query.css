@@ -1,0 +1,33 @@
+@media screen and (max-width: 576px)
+{
+    header h1 {
+        text-align: center;
+    }
+    header ul {
+
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+
+    header ul li {
+        text-align: center;
+        width: 100%;
+        border: 1px solid white;
+    }
+
+    main article {
+        margin-bottom: 50px;
+    }
+
+    main {
+        padding-right: 10px;
+
+        flex-direction: column;
+        width: auto;
+    }
+
+    footer {
+        width: auto;
+    }
+
+}
